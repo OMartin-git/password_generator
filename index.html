@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="body">
+        <div id="inner-body">
+            <h1 class="titel" id="first-line">Generate a</h1>
+            <h1 class="titel" id="second-line">random password</h1>
+            <h2 id="sub-titel">Never use an insecure password again.</h2>
+            <button id="btn" onclick="displayPasswords()">Generate passwords</button>
+            <div id="sep-line"></div>
+            <div id="pws">
+                <button onclick="copyToClipboard('first-pw')" class="pw-el" id="first-pw"></button>
+                <button onclick="copyToClipboard('second-pw')" class= "pw-el" id="second-pw"></button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
